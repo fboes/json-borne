@@ -1,0 +1,19 @@
+{
+  "version":"2.0",
+  "prodid":"-//3960.org//CSVCONV//DE",
+  "x-wr-calname":"",
+  "x-wr-timezone":"Europe/Berlin",
+  "calscale":"GREGORIAN",
+  "method":"PUBLISH",
+  "vevents": [
+    {
+      "dtstart":"19970714T170000Z",
+      "dtend":"19970715T035959Z",
+      "url":"http://www.example.com/",
+      "summary":"Bastille Day Party",
+      "description":"Bastille Day Party Description",
+      "dtstamp":"19970714T170000Z",
+      "uid":"uid1@example.com"
+    }
+  ]
+}
