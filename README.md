@@ -8,10 +8,8 @@ Why do we need well-defined JSON data sets?
 
 JSON ist not only about storing your data. It is also about communication. Javascript in browsers can directly parse JSON, and JSON offered via REST-APIs can be parsed by almost any programming language effortlessly. Using the same data strcture for the same type of content allows you to have your data interoperable with another service you mioght not yet have thought of.
 
-Data formats
-------------
-
-### General conversions
+General conversions & validation
+--------------------------------
 
 * There is a [general way to convert XML data structures into JSON data structures](http://blog.3960.org/post/8478676503/rss-mit-json).
 * There is a [discussion about how to format dates in JSON](http://stackoverflow.com/questions/10286204/the-right-json-date-format). The two favoured options are timestamps (e.g. `1476695864`) or Javascript's Date representation (e.g. `2012-04-23T18:25:43.511Z`).
@@ -21,10 +19,15 @@ Data formats
 ### Schema
 
 * [JSON Schema](http://json-schema.org/) is a vocabulary that allows you to annotate and validate JSON documents.
+* There is a [JSON schema generator](http://jsonschema.net/#/).
+* There is a list of schemas at the [JSON schema store](http://schemastore.org/json/).
+
+Data formats
+------------
 
 ###  Syndication
 
-* [JSON-RSS](http://scripting.com/stories/2012/09/10/rssInJsonForReal.html) as proposed by Dave Winer himself converts the true and trusted RSS into JSON. Currently there is no service out there to digest this information, but it is a convenient way to offer your published articles via REST-API. There is also a [live example for JSON-RSS](http://blog.3960.org/post/8478676503/rss-mit-json).
+* [JSON-RSS](http://scripting.com/stories/2012/09/10/rssInJsonForReal.html) as proposed by Dave Winer himself converts the true and trusted RSS into JSON. Currently there is no service out there to digest this information, but it is a convenient way to offer your published articles via REST-API. There is also a [live example for JSON-RSS](http://blog.3960.org/post/8478676503/rss-mit-json) and a [JSON-RSS schema](schemas/json-rss.json).
 * [JSON-Sitemap](sitemap.json) tries to output [XML-Sitemaps](http://www.sitemaps.org/de/protocol.html) in JSON. This may be useful to have a list of all URLs in a given domain.
 
 ### Articles
