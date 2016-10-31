@@ -6,14 +6,14 @@ Why invent a new JSON structure for your application if there are already tons o
 Why do we need well-defined JSON data sets?
 -------------------------------------------
 
-JSON ist not only about storing your data. It is also about communication. Javascript in browsers can directly parse JSON, and JSON offered via REST-APIs can be parsed by almost any programming language effortlessly. Using the same data strcture for the same type of content allows you to have your data interoperable with another service you mioght not yet have thought of.
+JSON ist not only about storing your data. It is also about communication. Javascript in browsers can directly parse JSON, and JSON offered via REST-APIs can be parsed by almost any programming language effortlessly. Using the same data structure for the same type of content allows you to have your data interoperable with another service you might not yet have thought of.
 
 General conversions & validation
 --------------------------------
 
 * There is a [general way to convert XML data structures into JSON data structures](http://blog.3960.org/post/8478676503/rss-mit-json).
 * There is a [discussion about how to format dates in JSON](http://stackoverflow.com/questions/10286204/the-right-json-date-format). The two favoured options are timestamps (e.g. `1476695864`) or Javascript's Date representation (e.g. `2012-04-23T18:25:43.511Z`).
-* [JSON-LD](http://json-ld.org/) is used by Google Knowledge Graph, and describes lots of structured data. See also ["hy JSON-LD"](http://jsonld.com/why-json-ld/).
+* [JSON-LD](http://json-ld.org/) is used by Google Knowledge Graph, and describes lots of structured data. See also ["Why JSON-LD"](http://jsonld.com/why-json-ld/).
 * For rich text you may want to use [Markdown](https://daringfireball.net/projects/markdown/), as there are tons of parsers for this format.
 
 ### Schema
