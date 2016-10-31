@@ -18,6 +18,10 @@ Data formats
 * [JSON-LD](http://json-ld.org/) is used by Google Knowledge Graph, and describes lots of structured data. See also ["hy JSON-LD"](http://jsonld.com/why-json-ld/).
 * For rich text you may want to use [Markdown](https://daringfireball.net/projects/markdown/), as there are tons of parsers for this format.
 
+### Schema
+
+* [JSON Schema](http://json-schema.org/) is a vocabulary that allows you to annotate and validate JSON documents.
+
 ###  Syndication
 
 * [JSON-RSS](http://scripting.com/stories/2012/09/10/rssInJsonForReal.html) as proposed by Dave Winer himself converts the true and trusted RSS into JSON. Currently there is no service out there to digest this information, but it is a convenient way to offer your published articles via REST-API. There is also a [live example for JSON-RSS](http://blog.3960.org/post/8478676503/rss-mit-json).
