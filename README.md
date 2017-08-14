@@ -27,6 +27,7 @@ Data formats
 
 ###  Syndication
 
+* [JSONFeed](https://jsonfeed.org/) is a format similar to RSS and Atom but in JSON. It reflects the lessons learned from years of work reading and publishing feeds.
 * [JSON-RSS](http://scripting.com/stories/2012/09/10/rssInJsonForReal.html) as proposed by Dave Winer himself converts the true and trusted RSS into JSON. Currently there is no service out there to digest this information, but it is a convenient way to offer your published articles via REST-API. There is also a [live example for JSON-RSS](http://blog.3960.org/post/8478676503/rss-mit-json) and a [JSON-RSS schema](schemas/json-rss.json).
 * [JSON-Sitemap](sitemap.json) tries to output [XML-Sitemaps](http://www.sitemaps.org/de/protocol.html) in JSON. This may be useful to have a list of all URLs in a given domain.
 * [Slack Message-API](https://api.slack.com/docs/message-attachments) with [Slack Message-Builder](https://api.slack.com/docs/messages/builder)
